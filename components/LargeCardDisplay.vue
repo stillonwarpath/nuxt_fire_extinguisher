@@ -4,7 +4,7 @@
       {{ cardsSection.title }}
     </h4>
     <p class="snippet">
-      User say these are the best fire extinguisher to rent if your house is burning down.
+      {{ cardsSection.snippet }}
     </p>
     <div class="cards-container">
     </div>
