@@ -6,6 +6,7 @@
 </template>
 
 <script>
+import { largeCardSections } from '@/assets/data.js'
 export default {
   name: 'IndexPage'
 }
