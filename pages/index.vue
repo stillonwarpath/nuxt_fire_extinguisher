@@ -8,6 +8,11 @@
 <script>
 import { largeCardSections } from '@/assets/data.js'
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  data () {
+    return {
+      largeCardInfo: largeCardSections
+    }
+  }
 }
 </script>
