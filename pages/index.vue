@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-    <HeroComponent />
+    <Hero />
+    <LargeCardDisplay />
   </div>
 </template>
 
