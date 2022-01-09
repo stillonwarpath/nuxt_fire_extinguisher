@@ -1,6 +1,8 @@
 <template>
-    <div>
-
+    <div class="card">
+        <img src="" alt="" class="image">
+        <h3 class="header"></h3>
+        <p class="snippet"></p>
     </div>
 </template>
 
