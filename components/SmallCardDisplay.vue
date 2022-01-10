@@ -1,12 +1,21 @@
 <template>
   <div class="container">
-    <h3 class="header"></h3>
-    <div class="card-container"></div>
+    <h3 class="header">
+      {{ cardsSection.title }}
+    </h3>
+    <div class="card-container">
+      <SmallCard 
+        v-for="card in cardsSection.card"
+        :key="card.id"
+        :card="card"
+      />
+    </div>
   </div>
 </template>
 
 <script>
 export default {
+  props: ['cardsSection']
 }
 </script>
 
