@@ -4,8 +4,8 @@
       {{ cardsSection.title }}
     </h3>
     <div class="card-container">
-      <SmallCard 
-        v-for="card in cardsSection.card"
+      <SmallCard
+        v-for="card in cardsSection.cards"
         :key="card.id"
         :card="card"
       />
