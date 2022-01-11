@@ -1,6 +1,6 @@
 <template>
     <div>
-        This is a products page
+        Hello I'm route /products/id
     </div>
 </template>
 
@@ -10,5 +10,4 @@ export default {
 </script>
 
 <style scoped>
-
 </style>
