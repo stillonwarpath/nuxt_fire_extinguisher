@@ -19,8 +19,12 @@
 <script>
 import { largeCardSections, smallCardSections } from '@/assets/data.js'
 export default {
-  largeCardSections,
-  smallCardSections
+  data () {
+    return {
+      largeCardSections,
+      smallCardSections
+    }
+  }
 }
 </script>
 
