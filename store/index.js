@@ -223,7 +223,7 @@ export const getters = {
   getProductById: (state) => {
     return (id) => {
       return state.products.find((product) => {
-        return product.id === id
+        return product.id === parseInt(id)
       })
     }
   }
