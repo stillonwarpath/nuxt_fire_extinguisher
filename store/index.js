@@ -218,3 +218,13 @@ export const state = () => ({
     }
   ]
 })
+
+export const getters = {
+  getProductId: (state) => {
+    return (id) => {
+      return state.products.find((product) => {
+        return product.id === id
+      })
+    }
+  }
+}
