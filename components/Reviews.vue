@@ -1,8 +1,11 @@
 <template>
   <div>
       <h3>Customer Reviews</h3>
-      <div>
+      <div v-if="!$fetchState.pending">
         {{ reviewers }}
+      </div>
+      <div v-else>
+        Loading...
       </div>
   </div>
 </template>
