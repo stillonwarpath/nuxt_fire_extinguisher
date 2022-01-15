@@ -32,7 +32,7 @@
     </div>
 </div>
 <div v-else class="container padding">
-    Page not found
+    <PageNotFound />
 </div>
 </template>
 
