@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <NuxtLink to="/">Go Back</NuxtLink>>
+    <div class="container">
+        <NuxtLink to="/">Go Back</NuxtLink>
         <Nuxt />
     </div>
 </template>
@@ -12,5 +12,7 @@ export default {
 </script>
 
 <style scoped>
-
+    .container {
+        padding: 5rem 0;
+    }
 </style>
