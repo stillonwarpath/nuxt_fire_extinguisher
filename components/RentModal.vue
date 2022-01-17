@@ -7,7 +7,7 @@
         <div class="text-container">
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nemo adipisci nobis labore fugit consequatur dolor, mollitia optio, atque aut maiores enim quibusdam sequi minus veniam similique tempore animi eos.</p>
         </div>
-        <vc-calendar
+        <vc-date-picker
           :value="null"
           color="indigo"
           is-dark
