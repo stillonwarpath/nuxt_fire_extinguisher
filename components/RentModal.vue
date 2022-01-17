@@ -30,3 +30,26 @@ export default {
   }
 }
 </script>
+<style scoped>
+  button {
+      width: 100%;
+      border: none;
+      color: white;
+      font-weight: 700;
+      padding: 1rem 4rem;
+      border-radius: 100rem;
+      background-color: rgb(231, 81, 43);
+      transition: 0.5s;
+  }
+  .calendar-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  p {
+    color: grey
+  }
+  .text-container {
+    padding: 0.5rem
+  }
+</style>
