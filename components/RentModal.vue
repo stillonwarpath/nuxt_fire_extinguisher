@@ -7,6 +7,12 @@
         <div class="text-container">
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nemo adipisci nobis labore fugit consequatur dolor, mollitia optio, atque aut maiores enim quibusdam sequi minus veniam similique tempore animi eos.</p>
         </div>
+        <vc-calendar
+          :value="null"
+          color="indigo"
+          is-dark
+          is-range
+        />
       </div>
       <b-button id="show-btn" variant="outline-danger">Order</b-button>
     </b-modal>
