@@ -239,3 +239,7 @@ export const getters = {
     }
   }
 }
+
+export const mutations = {
+  addItem: (state, id) => {}
+}
