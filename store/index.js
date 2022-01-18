@@ -241,5 +241,10 @@ export const getters = {
 }
 
 export const mutations = {
-  addItem: (state, id) => {}
+  addItem: (state, id) => {
+    const item = state.products.find((product) => {
+      return product.id === parseInt(id)
+    })
+    state.myRental.push(item)
+  }
 }
