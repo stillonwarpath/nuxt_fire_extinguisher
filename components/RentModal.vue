@@ -19,6 +19,7 @@
         variant="outline-danger"
         @click="() => {
           addItem(product.id)
+          hideModal()
         }">
           Order
         </b-button>
