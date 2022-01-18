@@ -1,12 +1,18 @@
 <template>
     <div>
         My items page
+        {{ myRentals }}
     </div>
 </template>
 
 <script>
+import { mapState } from 'vuex'
+
 export default {
-  layout: 'no-nav'
+  layout: 'no-nav',
+  computed: {
+    ...mapState(['myRentals'])
+  }
 }
 </script>
 
