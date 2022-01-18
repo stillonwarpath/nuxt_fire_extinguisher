@@ -245,6 +245,6 @@ export const mutations = {
     const item = state.products.find((product) => {
       return product.id === parseInt(id)
     })
-    state.myRental.push(item)
+    state.myRentals.push(item)
   }
 }
