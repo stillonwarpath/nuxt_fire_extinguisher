@@ -1,7 +1,11 @@
 <template>
     <div>
         My items page
-        {{ myRentals }}
+        <MyItem
+          v-for="item in myRentals"
+          :key="item.id"
+          :item="item"
+        />
     </div>
 </template>
 
